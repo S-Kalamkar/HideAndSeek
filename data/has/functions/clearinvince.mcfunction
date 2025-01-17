@@ -1,0 +1,1 @@
+execute as @a[tag=invince] at @s run tag @s remove invince

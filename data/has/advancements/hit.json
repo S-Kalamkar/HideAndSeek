@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": {
+          "type": "minecraft:player",
+          "team": "hider"
+        },
+        "damage": {
+          "source_entity": {
+            "type": "minecraft:player",
+            "team": "seeker"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "has:hit"
+  }
+}
